@@ -29,8 +29,10 @@ namespace Remotely.Desktop.Win.Services
         }
         public void Show()
         {
+            /*
             try
             {
+                
                 if (_notifyIcon != null)
                 {
                     return;
@@ -78,6 +80,7 @@ namespace Remotely.Desktop.Win.Services
             {
                 Logger.Write(ex);
             }
+            */
         }
 
         private void App_Exit(object sender, EventArgs e)
